@@ -1,0 +1,34 @@
+:root {
+  --hue: 270;
+
+  --header-color: hsl(0 8% 98%);
+  --text-color: hsl(0 0% 21%);
+  --text-color-light: hsl(0 8% 98%);
+}
+
+.header {
+  align-items: center;
+  background: var(--header-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  position: fixed;
+}
+.logo {
+  width: 70%;
+}
+.logo__link {
+  width: fit-content;
+}
+
+.logo__link--img {
+  max-width: 10%;
+}
+.header__nav {
+  width: 30%;
+  padding: 1rem;
+}
+.header__nav a {
+  color: var(--text-color);
+  margin: 0 1rem;
+}
