@@ -1,6 +1,7 @@
 :root {
-  --hue: 270;
+  --hue: 285;
 
+  --title-color: (163, 2, 168);
   --header-color: hsl(0 8% 98%);
   --text-color: hsl(0 0% 21%);
   --text-color-light: hsl(0 8% 98%);
@@ -8,27 +9,42 @@
 
 .header {
   align-items: center;
-  background: var(--header-color);
+  background: #140926;
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 7%;
+  padding-left: 2rem;
+  padding-right: 2rem;
   position: fixed;
+  width: 100%;
 }
-.logo {
-  width: 70%;
+.header img {
+  width: 10rem;
+  padding-top: 1rem;
 }
-.logo__link {
-  width: fit-content;
+.header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.875rem;
+  color: #fce4ff;
 }
 
-.logo__link--img {
-  max-width: 10%;
+.menu__lista {
+  display: flex;
+  margin-right: 10rem;
 }
-.header__nav {
-  width: 30%;
-  padding: 1rem;
+.menu__link {
+  font-size: 1.25rem;
+  color: var(--text-color-light);
+  margin-right: 1.25rem;
+  text-decoration: none;
+  text-transform: capitalize;
 }
-.header__nav a {
-  color: var(--text-color);
-  margin: 0 1rem;
+
+.menu__link.ativo {
+  color: #333333;
+  font-weight: bold;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
 }

@@ -23,7 +23,21 @@
 a {
   text-decoration: none;
 }
+li {
+  list-style: none;
+}
 
-.header__nav {
-  color: var(--text-color);
+.btn {
+  display: inline-flex;
+  height: 3rem;
+  color: white;
+  background: var(--base-color);
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.btn:hover {
+  background: var(--base-color-alt);
+  font-size: 1.25rem;
 }

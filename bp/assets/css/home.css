@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  background: url(../img/bg_home2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+.home .content {
+  max-width: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home .content h3 {
+  justify-content: center;
+  font-family: Pacifico, sans-serif;
+  font-size: 5rem;
+  color: #fce4ff;
+}
+.home .content p {
+  font-size: 1.25rem;
+  font-weight: lighter;
+  line-height: 1.8rem;
+  padding: 1rem 0;
+  color: #f6b0ff;
+}
