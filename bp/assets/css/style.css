@@ -31,13 +31,15 @@ li {
   display: inline-flex;
   height: 3rem;
   color: white;
-  background: var(--base-color);
+  background: #270082;
   padding: 0 2rem;
   border-radius: 0.25rem;
   align-items: center;
   font-size: 1.2rem;
+
+  transition: 0.3s;
 }
 .btn:hover {
-  background: var(--base-color-alt);
+  background: #7a0bc0;
   font-size: 1.25rem;
 }

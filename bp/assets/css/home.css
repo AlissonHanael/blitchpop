@@ -11,18 +11,20 @@
   max-width: 60rem;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 10rem;
   justify-content: center;
 }
 .home .content h3 {
   justify-content: center;
   font-family: Pacifico, sans-serif;
   font-size: 5rem;
-  color: #fce4ff;
+  color: #fa58b6;
 }
 .home .content p {
+  color: #f6b0ff;
   font-size: 1.25rem;
-  font-weight: lighter;
+  font-weight: 400;
   line-height: 1.8rem;
   padding: 1rem 0;
-  color: #f6b0ff;
+  text-align: justify;
 }

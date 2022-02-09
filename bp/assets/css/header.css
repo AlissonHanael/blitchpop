@@ -2,14 +2,14 @@
   --hue: 285;
 
   --title-color: (163, 2, 168);
-  --header-color: hsl(0 8% 98%);
+
   --text-color: hsl(0 0% 21%);
   --text-color-light: hsl(0 8% 98%);
 }
 
 .header {
   align-items: center;
-  background: #140926;
+  background: #1a1a40;
   display: flex;
   justify-content: space-between;
   padding-left: 2rem;
