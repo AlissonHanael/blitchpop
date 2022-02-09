@@ -1,0 +1,32 @@
+.cards {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2rem;
+}
+.cards__card {
+  background: rgb(55, 55, 104);
+  border-radius: 1rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+.cards__card cite {
+  align-items: center;
+  color: #fa58b6;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.cards__card p {
+  color: #f6b0ff;
+  text-align: justify;
+}
+.user {
+  margin: 1rem 0;
+  width: 100%;
+  object-fit: cover;
+  clip-path: circle();
+}

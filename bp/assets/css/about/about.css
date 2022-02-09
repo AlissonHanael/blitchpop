@@ -1,0 +1,26 @@
+.about {
+  background: #1a1a40;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.texto {
+  color: #fa58b6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.texto__titulo {
+  display: flex;
+  font-size: 3.5rem;
+  font-family: Pacifico, sans-serif;
+  justify-content: center;
+  padding: 2rem;
+}
+.texto__paragrafo {
+  display: flex;
+  font-size: 1.25rem;
+  font-family: Roboto, sans-serif;
+  justify-content: center;
+}

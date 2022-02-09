@@ -16,6 +16,7 @@
   padding-right: 2rem;
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 .header img {
   width: 10rem;
@@ -47,4 +48,15 @@
 
 .menu__link:hover {
   text-decoration: underline;
+}
+.logo__img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.logo__img.scroll {
+  display: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }

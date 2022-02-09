@@ -1,0 +1,18 @@
+.contato {
+  display: flex;
+  flex-direction: row;
+  background: #1a1a40;
+  padding-bottom: 2rem;
+}
+.contato__img {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-right: 2px solid white;
+}
+.contato__img img {
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #fce4ff;
+}

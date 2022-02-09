@@ -20,6 +20,24 @@
   /*sombra*/
   --shadow: 0 5px 15px 0 rgb(0, 0, 0, 0.37);
 }
+
+html {
+  font-size: 1rem;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+html::-webkit-scrollbar-track {
+  background: #1a1a40;
+}
+html::-webkit-scrollbar-thumb {
+  background: navy;
+  border-radius: 5rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -42,4 +60,8 @@ li {
 .btn:hover {
   background: #7a0bc0;
   font-size: 1.25rem;
+}
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, #fce4ff, #fa58b6);
 }
