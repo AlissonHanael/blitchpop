@@ -1,24 +1,6 @@
 :root {
-  --hue: 270;
-  /*hsl mode*/
-  --base-color: hsl(var(--hue) 96% 40%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
-  --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: hsl(var(--hue) 41% 18%);
-  --text-color: hsl(0 0% 21%);
-  --text-color-light: hsl(0 8% 98%);
-  --header-color: hsl(0 8% 98%);
-  --body-color: hsl(240, 50%, 1%);
-  --bg-color: hsl(240, 16%, 9%);
-  --border: 0.1rem solid hsl(var(--hue) 100% 100%);
-  --scroll-color: hsl(280, 100%, 90%);
-  --scroll-color-alt: hsl(281, 100%, 95%);
-  --border-blur: 1px solid rgba(255, 255, 255, 0.18);
-  /*Fontes*/
-  --title-font-size: 1.875rem;
-  --subtitle-font-size: 1rem;
-  /*sombra*/
-  --shadow: 0 5px 15px 0 rgb(0, 0, 0, 0.37);
+  touch-action: pan-x pan-y;
+  height: 100%;
 }
 
 html {
